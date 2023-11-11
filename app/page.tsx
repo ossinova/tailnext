@@ -32,17 +32,11 @@ export default function Page() {
   return (
     <>
       <Hero data={heroData} />
-      <SocialProof {...socialProofData} />
-      <Features3 {...featuresData} />
-      <Content {...contentData} />
-      <Content {...content2Data} />
       <Steps />
       <Testimonial />
       <FAQs2 {...faqsData2} />
-      <Pricing {...pricingData} />
       <Team />
       <Contact />
-      <CallToAction2 {...callToActionData} />
     </>
   );
 }

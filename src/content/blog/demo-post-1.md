@@ -1,9 +1,9 @@
 ---
 publishDate: 'Nov 02 2022'
-title: 'Nulla amet fugiat qui minim deserunt enim eu'
-description: 'Lorem ipsum dolor sit amet'
-excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'
-image: 'https://source.unsplash.com/random/1024x640/?vintage+travel'
+title: 'Popular PC Copmponents of 2023'
+description: 'The best valøue for money components 2023'
+excerpt: 'Are you planning on upgrading your PC then knowing which components give you the best value for money is essential. In this article we go over the best components to get in 2023.'
+image: 'https://images.unsplash.com/photo-1698440050363-1697e5f0277c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 tags: [markdown, blog]
 ---
 

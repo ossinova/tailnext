@@ -46,7 +46,7 @@ import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
 import heroImg from '~/assets/images/hero.jpg';
 import hero2Img from '~/assets/images/hero2.jpg';
-import gasImg from '~/assets/images/gas.jpg';
+import stepImg from '~/assets/images/step.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -109,9 +109,9 @@ export const headerData: HeaderProps = {
   ],
   actions: [
     {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
-      targetBlank: true,
+      text: 'Get a Qoute',
+      href: '/contact',
+      targetBlank: false,
       btnType: 'primary',
     },
   ],
@@ -125,36 +125,34 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      Tailored Computing: <span className="hidden md:inline">Custom PCs</span> <span>Crafted to Perfection</span> +{' '}
+      <span className="sm:whitespace-nowrap">Gaming</span>
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
+          MercuryCoreSystems:
         </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
-      </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+        Crafting Your Dream PC.
+        </span>
     </>
   ),
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
+    text: 'See out builds',
+    href: '/builds',
     icon: IconDownload,
-    targetBlank: true,
+    targetBlank: false,
     btnType: 'primary',
   },
   callToAction2: {
     text: 'Learn more',
-    href: '/',
+    href: '/about',
   },
   image: {
     src: heroImg,
-    alt: 'Hero TailNext',
+    alt: 'Hero CMercuryCoreSystems',
   },
 };
 
@@ -691,33 +689,33 @@ export const content2Data: ContentProps = {
 
 // Steps data
 export const stepsData: StepsProps = {
-  title: 'Sed ac magna sit amet risus tristique interdum. hac.',
+  title: 'Curating your dream machine',
   items: [
     {
       title: 'Step 1',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+        'Consultation and Requirements Gathering',
       icon: IconArrowDown,
     },
     {
       title: 'Step 2',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        'Design and Proposal',
       icon: IconArrowDown,
     },
     {
       title: 'Step 3',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        'Build and Test',
       icon: IconArrowDown,
     },
     {
-      title: 'Ready!',
+      title: 'Ready for delivery!',
       icon: IconCheck,
     },
   ],
   image: {
-    src: gasImg,
+    src: stepImg,
     alt: 'Steps image',
   },
 };
